@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "406866484310",
+    "firebase_url": "https://ftm-australian-english.firebaseio.com",
+    "project_id": "ftm-australian-english",
+    "storage_bucket": "ftm-australian-english.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406866484310:android:c9ce8d73445ed676",
+        "android_client_info": {
+          "package_name": "com.eduapp4syria.feedthemonsterENGLISHAUS"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406866484310-stqsmm8vajaiml3o69ksccbhoetl14nt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnIzPIJThvsV1XRUBx532u1PXxhrKdof0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
