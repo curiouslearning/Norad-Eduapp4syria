@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "332173291188",
+    "firebase_url": "https://ftm-west-african-english.firebaseio.com",
+    "project_id": "ftm-west-african-english",
+    "storage_bucket": "ftm-west-african-english.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332173291188:android:6e6ce5695e70e287",
+        "android_client_info": {
+          "package_name": "com.eduapp4syria.feedthemonsterWAENGLISH"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332173291188-pb77g1834eq10q130p6gi2ki1d503atc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvI2LJAfpGXAeexRUWmEpoEGXFSPOjKzg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
