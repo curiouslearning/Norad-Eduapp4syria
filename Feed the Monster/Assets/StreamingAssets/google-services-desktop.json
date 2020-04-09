@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "925412975749",
+    "firebase_url": "https://ftm-yoruba.firebaseio.com",
+    "project_id": "ftm-yoruba",
+    "storage_bucket": "ftm-yoruba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925412975749:android:54aba520a4db6d7c",
+        "android_client_info": {
+          "package_name": "com.eduapp4syria.feedthemonsterYoruba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925412975749-8u7tj1pc95onftfrk2ug2a82nvt0uusg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB81ZuR2G-cIRp5aYEONXhk7r2e-iY2jQo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
