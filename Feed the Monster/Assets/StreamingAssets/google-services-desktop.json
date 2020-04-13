@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1008902241534",
+    "firebase_url": "https://ftm-hausa.firebaseio.com",
+    "project_id": "ftm-hausa",
+    "storage_bucket": "ftm-hausa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008902241534:android:297d4025a7f0722b",
+        "android_client_info": {
+          "package_name": "com.eduapp4syria.feedthemonsterHausa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008902241534-vv5mmmkok7saftud66hddmhs7qor10bj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRr4Bx8bK3RQ65y3ii8qkLrdDWhn63Vls"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
