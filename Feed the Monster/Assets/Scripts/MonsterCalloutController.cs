@@ -21,7 +21,7 @@ public class MonsterCalloutController : MonoBehaviour {
 	}
 
 	public bool IsMouseOver { get;  set; }
-	public Text text;
+	public Image text;
 
 	public HoleButtonController holeButtonController;
 
@@ -104,6 +104,7 @@ public class MonsterCalloutController : MonoBehaviour {
 		if(HidePartical != null) {
 			HidePartical.SetActive (false);
 		}
+        text.enabled = false;
 	}
 
 	public void OnEatDone()
@@ -185,9 +186,9 @@ public class MonsterCalloutController : MonoBehaviour {
 		mMonsterInputType = GameplayController.Instance.CurrentLevel .monsterInputType;
 
 		if (mMonsterInputType == MonsterInputType.LetterInWord || mMonsterInputType == MonsterInputType.Word) {
-			text.fontSize = FontSizeWord;
+			//text.fontSize = FontSizeWord;
 		} else {
-			text.fontSize = FontSizeLetter;
+			//text.fontSize = FontSizeLetter;
 		}
 
 		transform.SetParent (GameObject.Find ("Panel - Monsters").transform);
@@ -321,6 +322,7 @@ public class MonsterCalloutController : MonoBehaviour {
 			Invoke ("PlayCalloutSound", 0.5f);
 
 			mNeededLettersAnimation = new NeededLettersAnimation (text, this);
+            //text.enabled = enabled;
 			timeToEndShow = 1f;
 			mNeededLettersAnimation.Show (timeToEndShow);
 			break;
@@ -554,9 +556,6 @@ public class MonsterCalloutController : MonoBehaviour {
 		else if (IsGoodLetter (letter)) {
 			EatGoodLetter (letter);
 
-			if (mNeededLettersAnimation != null) {
-				mNeededLettersAnimation.UnMarkFirstLetter ();
-			}
 		} 
 		else {
 			EatBadLetter ();

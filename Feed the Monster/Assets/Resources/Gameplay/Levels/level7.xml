@@ -1,68 +1,68 @@
-<XMLLevel CollectableMonster="" HideCallout="-1" LettersGroup="2" SegmentTime="11" StoneType="1" monsterInputType="Letter">
+<XMLLevel CollectableMonster="" HideCallout="-1" LettersGroup="3" SegmentTime="11" StoneType="1" monsterInputType="Letter">
   <Segments>
     <Segment SegmentTime="11" spawnIds="19,22,27">
       
 	  <MonsterRequiredLetters>
-		<string>इ</string>
+		<string>384</string>
 	  </MonsterRequiredLetters>
 	  <MonsterAllLetters>
 	  </MonsterAllLetters>
 	  <Stones>
-        <string>थ</string>
-        <string>च</string>
-        <string>इ</string>
+        <string>348</string>
+        <string>384</string>
+        <string>406</string>
       </Stones>
     </Segment>
 	<Segment SegmentTime="11" spawnIds="">
       
 	  <MonsterRequiredLetters>
-		<string>त</string>
+		<string>17</string>
 	  </MonsterRequiredLetters>
 	  <MonsterAllLetters>
 	  </MonsterAllLetters>
 	  <Stones>
-        <string spawnId="18">ब</string>
-        <string spawnId="21">फ</string>
-        <string spawnId="26">त</string>
+        <string spawnId="18">36</string>
+        <string spawnId="21">17</string>
+        <string spawnId="26">17</string>
       </Stones>
     </Segment>
 	<Segment SegmentTime="11" spawnIds="89,54,95">
       
 	  <MonsterRequiredLetters>
-		<string>च</string>
+		<string>84</string>
 	  </MonsterRequiredLetters>
 	  <MonsterAllLetters>
 	  </MonsterAllLetters>
 	  <Stones>
-        <string>ब</string>
-        <string>त</string>
-        <string>च</string>
+        <string>84</string>
+        <string>174</string>
+        <string>348</string>
       </Stones>
     </Segment>
 	<Segment SegmentTime="11" spawnIds="">
       
 	  <MonsterRequiredLetters>
-		<string>थ</string>
+		<string>36</string>
 	  </MonsterRequiredLetters>
 	  <MonsterAllLetters>
 	  </MonsterAllLetters>
 	  <Stones>
-        <string spawnId="90">ब</string>
-        <string spawnId="55">च</string>
-        <string spawnId="96">थ</string>
+        <string spawnId="90">430</string>
+        <string spawnId="55">36</string>
+        <string spawnId="96">348</string>
       </Stones>
     </Segment>
 	<Segment SegmentTime="11" spawnIds="61,59,93,94">
       
 	  <MonsterRequiredLetters>
-		<string>त</string>
+		<string>396</string>
 	  </MonsterRequiredLetters>
 	  <MonsterAllLetters>
 	  </MonsterAllLetters>
 	  <Stones>
-        <string>इ</string>
-        <string>ब</string>
-        <string>त</string>
+        <string>396</string>
+        <string>348</string>
+        <string>396</string>
 		<string bonusScore="150">BonusLetter</string>
       </Stones>
     </Segment>

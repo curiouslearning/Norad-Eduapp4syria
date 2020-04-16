@@ -2,6 +2,8 @@
 using System.Collections;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using System.Collections.Generic;
+using System.Text;
 
 
 public class LetterController : MonoBehaviour
@@ -29,7 +31,7 @@ public class LetterController : MonoBehaviour
 	//	public string value { get; private set;  }
 	public Stone stone { get; private set;  }
 	public float Speed;
-
+    public Image charspot;
 
 
 	public Image MainImage;
@@ -162,7 +164,7 @@ public class LetterController : MonoBehaviour
 			ParticlesMergeRejectScale  = ParticlesMergeReject.transform.localScale;
 		}
 
-		if(stone.spawnIds.Length > 1) { 
+		if(stone.spawnIds.Length > 1) {
 
 			if (stone.speed > 0) {
 				mCurrentSpeed = stone.speed;
@@ -170,9 +172,27 @@ public class LetterController : MonoBehaviour
 				mCurrentSpeed = GameplaySettings.LetterMovementSpeed;
 			}
 		} else {
-			mCurrentSpeed = GameplaySettings.LetterStationingSpeed;	
+			mCurrentSpeed = GameplaySettings.LetterStationingSpeed;
 		}
 	}
+
+
+    void loadCharImage(string CharName)
+    {
+        string url;
+        Sprite res;
+        //CharName = CharName.Normalize(NormalizationForm.FormKD);
+        url = "charimg/" + CharName;
+//        Debug.Log("loading " + url);
+        res = Resources.Load<Sprite>(url);
+        charspot.sprite = res;
+        if (res == null)
+        {
+            Debug.Log("Can't load character image: " + url);
+        }
+    }
+
+
 
 	// Update is called once per frame
 	void Update () {
@@ -234,7 +254,7 @@ public class LetterController : MonoBehaviour
 					transform.position = Vector3.MoveTowards (transform.position, this.mTargetPosition, GameplayController.Instance.calcSpeed (mCurrentSpeed * Time.deltaTime));
 //					transform.localScale	= Vector3.MoveTowards (transform.localScale, this.mTargetScale, mCurrentSpeed * Time.deltaTime);
 
-					if (!isActive && Vector2.Distance (transform.position, mTargetPosition) < 5f) { 
+					if (!isActive && Vector2.Distance (transform.position, mTargetPosition) < 5f) {
 						isActive = true;
 					} else if (stone.spawnIds.Length > 1 && Vector2.Distance (transform.position, mTargetPosition) < 5f) {
 						mCurrentSpawnId++;
@@ -384,9 +404,11 @@ public class LetterController : MonoBehaviour
 
 		this.spawnId = spawnId;
 
-		//text.text = ArabicSupport.ArabicFixer.Fix(this.stone.value, true, true);
-		//text.text = RTL.Fix(this.stone.value);
-		text.text = this.stone.FixValue;
+        //text.text = ArabicSupport.ArabicFixer.Fix(this.stone.value, true, true);
+        //text.text = RTL.Fix(this.stone.value);
+        //	text.text = this.stone.FixValue;
+        text.text = "";
+        loadCharImage(this.stone.FixValue);
 
 		MainImage.color = GameplayController.Instance.CurrentLevel.StoneLetterMainColorDefault;
 		OutlineImage.color = GameplayController.Instance.CurrentLevel.StoneLetterMainOutlineColorDefault;
@@ -404,7 +426,7 @@ public class LetterController : MonoBehaviour
 		mInitPosition = position;
 
 //		transform.position = position;
-		if(stone.spawnIds.Length > 1) { 
+		if(stone.spawnIds.Length > 1) {
 			transform.position = position;
 		} else {
 			transform.position = GameplayController.Instance.LauncherPoint;
@@ -435,7 +457,7 @@ public class LetterController : MonoBehaviour
 //		ParticlesTrail.transform.SetParent (transform.parent);
 //		ParticlesTrail.loop = false;
 //		ParticlesTrail.Stop ();
-//		Destroy (ParticlesTrail.gameObject, 2);	
+//		Destroy (ParticlesTrail.gameObject, 2);
 	}
 
 	public void Showup()
@@ -488,6 +510,8 @@ public class LetterController : MonoBehaviour
 		}
 		State = LetterState.Disapear;
 		GetComponent<Animation> ().Play ("DisapearAnimation");
+        if (charspot != null)
+        charspot.enabled = false;
 		mShownup = false;
 	}
 
@@ -517,6 +541,8 @@ public class LetterController : MonoBehaviour
 		text.enabled = enable;
 		MainImage.enabled = enable;
 		OutlineImage.enabled = enable;
+        if (charspot != null)
+        charspot.enabled = enable;
 	}
 
 	void OnDisable()
@@ -580,7 +606,7 @@ public class LetterController : MonoBehaviour
 	}
 
 
-	public virtual void OnBeginDrag(PointerEventData eventData) 
+	public virtual void OnBeginDrag(PointerEventData eventData)
 	{
 		if (!GameplayController.Instance.IsInteractable || !isActive || GameplayController.Instance.State == GameplayController.GameState.CollectLetters) {// && isTutorial == false)
 			return;
@@ -662,7 +688,7 @@ public class LetterController : MonoBehaviour
 		if (this.stone != null) {
 //			text.text = ArabicSupport.ArabicFixer.Fix (this.stone.value, true, true);
 //			text.text = RTL.Fix (this.stone.value);
-			text.text = this.stone.FixValue;
+			//text.text = this.stone.FixValue;
 		}
 		if (State != LetterState.Idle)
 		{
@@ -709,7 +735,7 @@ public class LetterController : MonoBehaviour
 
 //		text.text = ArabicSupport.ArabicFixer.Fix(collectLetters, true, true);
 //		text.text = RTL.Fix(collectLetters);
-		text.text = collectLetters.FixValue;
+	//	text.text = collectLetters.FixValue;
 	}
 
 
@@ -725,7 +751,7 @@ public class LetterController : MonoBehaviour
 	public void	magnetToLetter(LetterController magnetLetter)
 	{
 		mTargetPosition = magnetLetter.transform.position;
-		mMagnetLetter = magnetLetter;	
+		mMagnetLetter = magnetLetter;
 	}
 
 	public void addScorebubble (int score)
@@ -778,7 +804,7 @@ public class LetterController : MonoBehaviour
 	CanvasGroup getCanvasGroup
 	{
 		get
-		{ 
+		{
 			if (cg == null) {
 				cg = gameObject.GetComponent<CanvasGroup> ();
 			}

@@ -81,7 +81,7 @@ public class Stone {
 	public bool isBooster() {
 		if(Array.IndexOf(Booster.BoosterNames, value) != -1) {
 			return true;
-		} else if(value.ToLower().Equals("monsterBooster")){
+		} else if(value != null && value.ToLower().Equals("monsterBooster")){
 			return true;
 		}
 
