@@ -6,6 +6,6 @@
   <string name="project_id" translatable="false">ftm-hindi</string>
   <string name="google_api_key" translatable="false">AIzaSyB3hq04C65BWsfHFBB155QwmTBuSaLGq5U</string>
   <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB3hq04C65BWsfHFBB155QwmTBuSaLGq5U</string>
-  <string name="google_app_id" translatable="false">1:306151873621:android:8ea2438a4f8b73b0</string>
+  <string name="google_app_id" translatable="false">1:306151873621:android:908554d272a43d60</string>
   <string name="default_web_client_id" translatable="false">306151873621-ipiki2jtbtlomcsdh95d71pvbnu5699p.apps.googleusercontent.com</string>
 </resources>
