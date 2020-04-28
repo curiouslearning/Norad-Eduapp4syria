@@ -12,7 +12,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 0
   companyName: Curious Learning
-  productName: Feed The Monster
+  productName: Voer Die Monster
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -24,7 +24,7 @@ PlayerSettings:
   m_SplashScreenDrawMode: 0
   m_SplashScreenBackgroundAnimationZoom: 1
   m_SplashScreenLogoAnimationZoom: 1
-  m_SplashScreenBackgroundLandscapeAspect: 0.6666667
+  m_SplashScreenBackgroundLandscapeAspect: 0.625
   m_SplashScreenBackgroundPortraitAspect: 0.6666667
   m_SplashScreenBackgroundLandscapeUvs:
     serializedVersion: 2
@@ -39,7 +39,7 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos:
-  - logo: {fileID: 21300000, guid: e3e782f2e3283478d97a96bc3403bbbb, type: 3}
+  - logo: {fileID: 21300000, guid: f3585710116afd84ca0cd939d2f0174b, type: 3}
     duration: 2
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
@@ -128,7 +128,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1
+  bundleVersion: 4
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -160,14 +160,14 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.eduapp4syria.feedthemonsterENGLISH
+    Android: com.eduapp4syria.feedthemonsterAfrikaans
     Standalone: unity.Curious Learning.Feed The Monster
     Tizen: com.eduapp4syria.feedthemonsterENGLISH
     iOS: com.eduapp4syria.feedthemonsterENGLISH
     tvOS: com.eduapp4syria.feedthemonsterENGLISH
   buildNumber:
     iOS: 0
-  AndroidBundleVersionCode: 1
+  AndroidBundleVersionCode: 4
   AndroidMinSdkVersion: 16
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 0
@@ -256,9 +256,9 @@ PlayerSettings:
   tvOSManualSigningProvisioningProfileID: 
   appleEnableAutomaticSigning: 0
   clonedFromGUID: 00000000000000000000000000000000
-  AndroidTargetArchitectures: 7
+  AndroidTargetArchitectures: 3
   AndroidSplashScreenScale: 2
-  androidSplashScreen: {fileID: 2800000, guid: bb27f6b4419d6154795b14cc4cdb1782, type: 3}
+  androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: C:/Users/willo/Downloads/egt.keystore
   AndroidKeyaliasName: egt
   AndroidTVCompatibility: 0
@@ -276,10 +276,10 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 53f816301d6084e7fa55fac1fb7e6ad8, type: 3}
+      m_Icon: {fileID: 2800000, guid: b9c89dc9e5709a0449991932af6a03c7, type: 3}
       m_Width: 128
       m_Height: 128
-      m_Kind: 1288
+      m_Kind: 0
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsAPIs: []
   m_BuildTargetVRSettings:
@@ -617,10 +617,9 @@ PlayerSettings:
   psp2InfoBarColor: 0
   psp2ScriptOptimizationLevel: 0
   psmSplashimage: {fileID: 0}
-  splashScreenBackgroundSourceLandscape: {fileID: 21300000, guid: bb27f6b4419d6154795b14cc4cdb1782,
+  splashScreenBackgroundSourceLandscape: {fileID: 21300000, guid: d3f76a524a69b96448eb5574f007e895,
     type: 3}
-  splashScreenBackgroundSourcePortrait: {fileID: 21300000, guid: bb27f6b4419d6154795b14cc4cdb1782,
-    type: 3}
+  splashScreenBackgroundSourcePortrait: {fileID: 0}
   spritePackerPolicy: DefaultPackerPolicy
   webGLMemorySize: 256
   webGLExceptionSupport: 1

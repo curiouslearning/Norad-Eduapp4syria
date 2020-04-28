@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "494193464776",
+    "firebase_url": "https://ftm-afrikaans.firebaseio.com",
+    "project_id": "ftm-afrikaans",
+    "storage_bucket": "ftm-afrikaans.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494193464776:android:763854d76bb5cf2e",
+        "android_client_info": {
+          "package_name": "com.eduapp4syria.feedthemonsterAfrikaans"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494193464776-op2pe3sssqder72ei0jdbpfvems1d7el.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "494193464776-op2pe3sssqder72ei0jdbpfvems1d7el.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG5xYL_JOVGMfVC-k3rP2haEDYoifovsg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

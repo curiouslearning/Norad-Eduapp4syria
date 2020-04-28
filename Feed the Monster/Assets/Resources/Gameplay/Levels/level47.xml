@@ -1,0 +1,74 @@
+<XMLLevel CollectableMonster="" HideCallout="2" LettersGroup="8" SegmentTime="10" StoneType="2" monsterInputType="Word">
+  <Segments>
+    <Segment SegmentTime="10" spawnIds="54,55,82,83">
+      
+	  <MonsterRequiredLetters>
+		<string>m</string>
+	  <string>ei</string></MonsterRequiredLetters>
+	  <MonsterAllLetters>
+	  </MonsterAllLetters>
+	  <Stones>
+        <string>v</string>
+        <string>r</string>
+        <string>m</string>
+		<string>ei</string>
+      </Stones>
+    </Segment>
+	<Segment SegmentTime="10" spawnIds="">
+      
+	  <MonsterRequiredLetters>
+		<string>w</string>
+	  <string>ei</string></MonsterRequiredLetters>
+	  <MonsterAllLetters>
+	  </MonsterAllLetters>
+	  <Stones>
+        <string spawnId="54">s</string>
+        <string spawnId="82">ui</string>
+        <string spawnId="55">w</string>
+		<string spawnId="83">ei</string>
+      </Stones>
+    </Segment>
+	<Segment SegmentTime="10" spawnIds="0,1,91,92">
+      
+	  <MonsterRequiredLetters>
+		<string>m</string>
+	  <string>ei</string></MonsterRequiredLetters>
+	  <MonsterAllLetters>
+	  </MonsterAllLetters>
+	  <Stones>
+        <string>t</string>
+        <string>d. m</string>
+        <string>m</string>
+		<string>ei</string>
+      </Stones>
+    </Segment>
+	<Segment SegmentTime="10" spawnIds="">
+      
+	  <MonsterRequiredLetters>
+		<string>s</string>
+	  <string>ei</string><string>l</string></MonsterRequiredLetters>
+	  <MonsterAllLetters>
+	  </MonsterAllLetters>
+	  <Stones>
+        <string spawnId="0">r</string>
+        <string spawnId="91">s</string>
+        <string spawnId="1">ei</string>
+		<string spawnId="92">l</string>
+      </Stones>
+    </Segment>
+	<Segment SegmentTime="10" spawnIds="94,93,61,59">
+      
+	  <MonsterRequiredLetters>
+		<string>ei</string>
+	  <string>e</string></MonsterRequiredLetters>
+	  <MonsterAllLetters>
+	  </MonsterAllLetters>
+	  <Stones>
+        <string>v</string>
+        <string>d. m</string>
+        <string>ei</string>
+		<string>e</string>
+      </Stones>
+    </Segment>
+  </Segments>
+</XMLLevel>

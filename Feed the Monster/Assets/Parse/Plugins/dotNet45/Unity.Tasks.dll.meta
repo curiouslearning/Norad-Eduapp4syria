@@ -3,6 +3,7 @@ guid: bd18eee30834e4f71bded96fd14033a9
 labels:
 - gvh
 - gvh_dotnet-4.5
+- gvh_version-6.3.0
 timeCreated: 1500423342
 licenseType: Pro
 PluginImporter:
@@ -18,6 +19,6 @@ PluginImporter:
       enabled: 0
       settings:
         DefaultValueInitialized: true
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+  userData:
+  assetBundleName:
+  assetBundleVariant:
