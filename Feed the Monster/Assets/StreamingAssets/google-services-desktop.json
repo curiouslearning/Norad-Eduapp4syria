@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "679140619732",
+    "firebase_url": "https://ftm-somali.firebaseio.com",
+    "project_id": "ftm-somali",
+    "storage_bucket": "ftm-somali.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679140619732:android:3046e3a1cf062ac4",
+        "android_client_info": {
+          "package_name": "com.eduapp4syria.feedthemonsterSOMALI"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679140619732-0rire716espr97ev78tqak2ist79k3fc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj87MDdS9PGXUxMSD8rHFlGv_WrecLFco"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
