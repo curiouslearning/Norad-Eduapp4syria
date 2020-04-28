@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "254738800834",
+    "firebase_url": "https://ftm-igbo.firebaseio.com",
+    "project_id": "ftm-igbo",
+    "storage_bucket": "ftm-igbo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254738800834:android:c37b30323e2b30f1",
+        "android_client_info": {
+          "package_name": "com.eduapp4syria.feedthemonsterIgbo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254738800834-elv93e808uik7bu2lh4qjabfr3gjs64f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgya0lZRRmyyiwWoG6OlQjuJIS152PJHg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

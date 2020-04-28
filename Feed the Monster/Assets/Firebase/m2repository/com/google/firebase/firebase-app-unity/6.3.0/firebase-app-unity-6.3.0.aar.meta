@@ -1,0 +1,33 @@
+fileFormatVersion: 2
+guid: b971f2ca8b9578d429d1ef86d36d3efd
+labels:
+- gpsr
+- gvh
+- gvh_version-6.3.0
+PluginImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  iconMap: {}
+  executionOrder: {}
+  isPreloaded: 0
+  isOverridable: 0
+  platformData:
+  - first:
+      Android: Android
+    second:
+      enabled: 0
+      settings: {}
+  - first:
+      Any: 
+    second:
+      enabled: 0
+      settings: {}
+  - first:
+      Editor: Editor
+    second:
+      enabled: 0
+      settings:
+        DefaultValueInitialized: true
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
