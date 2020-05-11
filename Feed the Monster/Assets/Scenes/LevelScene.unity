@@ -60637,7 +60637,7 @@ MonoBehaviour:
   GameFailMusic: {fileID: 8300000, guid: d9e6671c2414c784eab09fa7bcf1c42e, type: 3}
   GameLostFanfare: {fileID: 8300000, guid: fa62a551c3b125f4b829c0a5fd8595fe, type: 3}
   GameWonFanfare: {fileID: 8300000, guid: eb0188a951d327a45adcbfa38e711263, type: 3}
-  SoundEvolve: {fileID: 8300000, guid: b0efec2e9c95342c4afa824596b4ef1f, type: 3}
+  SoundEvolve: {fileID: 8300000, guid: b769b3850ea5f475c86dca7e219e20b3, type: 3}
   SoundScoreCount: {fileID: 8300000, guid: e304589b7b107b349b203d699f2ca5d4, type: 3}
   SoundBarFull: {fileID: 8300000, guid: 42b5ff3aa958df648b6aaedd9bcce607, type: 3}
 --- !u!114 &3864
@@ -61662,7 +61662,7 @@ MonoBehaviour:
   monsterBar: {fileID: 4098}
   ButtonPrevious: {fileID: 1149}
   ButtonNext: {fileID: 1201}
-  InstructionSound: {fileID: 8300000, guid: 09028648c8ad44dd1b76c437a979542e, type: 3}
+  InstructionSound: {fileID: 8300000, guid: b71af0f8b136742afa0e9cd265a5b5ba, type: 3}
   TouchController: {fileID: 4224}
 --- !u!114 &3922
 MonoBehaviour:
@@ -64106,7 +64106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fdfab411e49e6943929952cffd569eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterDiscoveredSound: {fileID: 8300000, guid: 7d4b7eb875ccb48909da5f5c520d15a3,
+  MonsterDiscoveredSound: {fileID: 8300000, guid: 33e5fa02b41144807a21ca8ea05f8ced,
     type: 3}
   FirstHolder: {fileID: 43}
 --- !u!114 &4060

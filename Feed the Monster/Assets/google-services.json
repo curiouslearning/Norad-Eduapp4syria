@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "933341742172",
-    "firebase_url": "https://ftm-english.firebaseio.com",
-    "project_id": "ftm-english",
-    "storage_bucket": "ftm-english.appspot.com"
+    "project_number": "40398180623",
+    "firebase_url": "https://ftm-southafricanenglish.firebaseio.com",
+    "project_id": "ftm-southafricanenglish",
+    "storage_bucket": "ftm-southafricanenglish.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:933341742172:android:16da2c32b553b4f3",
+        "mobilesdk_app_id": "1:40398180623:android:e20ea13951815376",
         "android_client_info": {
-          "package_name": "com.eduapp4syria.feedthemonsterENGLISH"
+          "package_name": "com.eduapp4syria.feedthemonsterSAEnglish"
         }
       },
       "oauth_client": [
         {
-          "client_id": "933341742172-fvclfgbprggrct3cvj0pn3tphijeko0j.apps.googleusercontent.com",
+          "client_id": "40398180623-0jddvamduncj0nbm0evhmenu7r33r1tv.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAcPtZwrUwOnTtsxWmdF3_43NgoCsvpv1k"
+          "current_key": "AIzaSyBF97jXHOaBLCxp5xAkwKIk1bRwE-C5OFU"
         }
       ],
       "services": {

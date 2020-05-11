@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   booster: 4
   MonsterType: 3
-  MiniGame: 4
+  MiniGame: 2
   AssetId: 3
   MonsterPrefab: {fileID: 104358, guid: 0770e2e45660cbd4b9cd8f71a72dba84, type: 2}
   GageCost: 401f0000983a0000204e0000204e0000

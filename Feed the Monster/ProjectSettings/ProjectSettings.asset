@@ -160,7 +160,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.eduapp4syria.feedthemonsterENGLISH
+    Android: com.eduapp4syria.feedthemonsterSAEnglish
     Standalone: unity.Curious Learning.Feed The Monster
     Tizen: com.eduapp4syria.feedthemonsterENGLISH
     iOS: com.eduapp4syria.feedthemonsterENGLISH
@@ -258,7 +258,7 @@ PlayerSettings:
   clonedFromGUID: 00000000000000000000000000000000
   AndroidTargetArchitectures: 3
   AndroidSplashScreenScale: 2
-  androidSplashScreen: {fileID: 2800000, guid: bb27f6b4419d6154795b14cc4cdb1782, type: 3}
+  androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: C:/Users/willo/Downloads/egt.keystore
   AndroidKeyaliasName: egt
   AndroidTVCompatibility: 0
@@ -619,8 +619,7 @@ PlayerSettings:
   psmSplashimage: {fileID: 0}
   splashScreenBackgroundSourceLandscape: {fileID: 21300000, guid: bb27f6b4419d6154795b14cc4cdb1782,
     type: 3}
-  splashScreenBackgroundSourcePortrait: {fileID: 21300000, guid: bb27f6b4419d6154795b14cc4cdb1782,
-    type: 3}
+  splashScreenBackgroundSourcePortrait: {fileID: 0}
   spritePackerPolicy: DefaultPackerPolicy
   webGLMemorySize: 256
   webGLExceptionSupport: 1

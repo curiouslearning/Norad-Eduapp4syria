@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   booster: 7
   MonsterType: 6
-  MiniGame: 4
+  MiniGame: 2
   AssetId: 6
   MonsterPrefab: {fileID: 1937724657243988, guid: e1a24a06659bea440809056061b76043,
     type: 2}
