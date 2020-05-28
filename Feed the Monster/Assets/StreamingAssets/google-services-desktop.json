@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "729286833948",
+    "firebase_url": "https://ftm-french.firebaseio.com",
+    "project_id": "ftm-french",
+    "storage_bucket": "ftm-french.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729286833948:android:478482846dc8b022",
+        "android_client_info": {
+          "package_name": "com.eduapp4syria.feedthemonsterFrench"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729286833948-jh2m8ee8mrvnbeddnlmhrn5m3h2ta23d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9559T0SCxTa-q35X768-4NOUGiZ3EF80"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
